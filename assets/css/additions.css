@@ -1,0 +1,49 @@
+
+/* ---------------------------------------------- /*
+ * Home
+/* ---------------------------------------------- */
+
+
+#home {
+  background: url(../images/backgrounds/rope_forest.jpg);
+  background-color: #222;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+}
+
+.intro {
+  top: 35%
+}
+
+.hello, .who-creates {
+  font-size: 20px;
+}
+
+
+/* ---------------------------------------------- /*
+ * Experience
+/* ---------------------------------------------- */
+
+.iconbox {
+  height: 440px;
+}
+
+.iconbox-subtitle {
+  text-align: left;
+}
+
+.iconbox .subject {
+  font-weight: 700;
+}
+
+.iconbox-desc, .iconbox-techstack {
+  text-align: left;
+}
+
+
