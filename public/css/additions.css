@@ -61,3 +61,37 @@
 }
 
 
+/* ---------------------------------------------- /*
+ * Portfolio
+/* ---------------------------------------------- */
+.portfolio-items-container {
+  background: rgb(84, 84, 84);
+}
+
+figure {
+  margin: 5px;
+}
+.caption-inner .portfolio-item-title {
+  font-size: 25px;
+  z-index: 5;
+}
+
+.caption-inner .portfolio-item-desc {
+  font-size: 23px;
+}
+
+.portfolio-items-container .portfolio-item a {
+  z-index: 10;
+  opacity: 0;
+}
+
+.portfolio-items-container .portfolio-item .underlay {
+  height: 100%;
+  left: 0;
+    position: absolute;
+  text-indent: 200%;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0.75);
+}
