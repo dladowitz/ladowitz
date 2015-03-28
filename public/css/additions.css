@@ -65,7 +65,8 @@
  * Portfolio
 /* ---------------------------------------------- */
 .portfolio-items-container {
-  background: rgb(84, 84, 84);
+  background: #F5F5F5;
+  padding-top: 20px;
 }
 
 figure {
@@ -88,10 +89,28 @@ figure {
 .portfolio-items-container .portfolio-item .underlay {
   height: 100%;
   left: 0;
-    position: absolute;
+  position: absolute;
   text-indent: 200%;
   top: 0;
   width: 100%;
   z-index: 0;
   background: rgba(255, 255, 255, 0.75);
+}
+
+.callout {
+  background: #F5F5F5;
+  height: 50px;
+}
+
+/* ---------------------------------------------- /*
+ * About
+/* ---------------------------------------------- */
+.side-image {
+  position: absolute;
+  background: url(../images/david.jpeg) scroll center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
 }
