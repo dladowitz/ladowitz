@@ -156,3 +156,47 @@ section .social-links {
   height: 45px;
   line-height: 54px;
 }
+
+/* ---------------------------------------------- /*
+ * Portfolio Page
+/* ---------------------------------------------- */
+#portfolio-home {
+  background: url(../images/backgrounds/sunrise.jpg);
+  background-color: #222;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+}
+
+#image-3 {
+  background: url(../images/backgrounds/car.jpg);
+  height: 500px;
+  background-color: #222;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+}
+
+#image-4 {
+  background: url(../images/backgrounds/blue_steel_wide.jpg);
+  height: 500px;
+  background-color: #222;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+}
