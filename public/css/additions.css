@@ -10,7 +10,7 @@ a {
  * Home
 /* ---------------------------------------------- */
 #home {
-  background: url(../images/backgrounds/rope_forest.jpg);
+  background: url(../images/backgrounds/tent.jpg);
   background-color: #222;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ a {
 }
 
 #image-2 {
-  background: url(../images/backgrounds/laptop.jpg);
+  background: url(../images/backgrounds/sailing_cut.jpg);
   height: 500px;
   background-color: #222;
   background-attachment: fixed;
@@ -39,6 +39,7 @@ a {
 .intro {
   top: 25%;
   padding-top: 40px;
+  margin-top: 70px;
 }
 
 .hello {
@@ -81,12 +82,17 @@ a {
  * Portfolio
 /* ---------------------------------------------- */
 .portfolio-items-container {
-  background: #4B4B4B;
+  /*background: #4B4B4B;*/
   padding-top: 20px;
 }
 
+.portfolio-item-skills {
+  font-size: 1.4em;
+}
 figure {
   margin: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
 }
 .caption-inner .portfolio-item-title {
   font-size: 25px;
