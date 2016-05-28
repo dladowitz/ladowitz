@@ -86,6 +86,9 @@ a {
   padding-top: 20px;
 }
 
+.portfolio-item-skills {
+  font-size: 1.4em;
+}
 figure {
   margin: 5px;
   border: 1px solid lightgray;
