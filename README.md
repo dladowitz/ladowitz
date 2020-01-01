@@ -1,2 +1,2 @@
-Portfolio and resume of recent works
+Portfolio and resume of recent works:
 http://www.ladowitz.com
